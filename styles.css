@@ -180,11 +180,53 @@ footer h3{
 
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) and (max-width: 767px){
     header{
         font-size: 23px;
     }
-    
+    footer{
+        font-size: 20px;
+    }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    header{
+        font-size: 29px;
+    }
+    .call{
+        width: 70%;
+        font-size: 14px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    header{
+        font-size: 39px;
+    }
+    .call{
+        width: 70%;
+        font-size: 15px;
+    }
+    footer{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (min-width: 1200px){
+    header{
+        font-size: 39px;
+    }
+    .call{
+        width: 70%;
+        font-size: 15px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
+
+
 
 
