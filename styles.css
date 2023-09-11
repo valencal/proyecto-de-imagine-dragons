@@ -30,7 +30,7 @@ header{
     color: #868686;
 }
 main{
-    height: 2000px ;
+    height: auto;
     background-color: rgb(27, 27, 27) ;
     color: white;
 
@@ -78,44 +78,52 @@ h1{
     color: black;
 }
 
-.parra{
-    font-size: 25px;
-    padding: 10px;
-}
+/* integrantes */
 .h1-int{
     text-align: center;
-    font-size: 100px;
+    font-size: 30px;
     font-family: devil breeze;
 }
 .imi{
     width: 100%;
     height: auto;
-  
+}
+article h3{
+    padding:  10px;
 }
 .card{
     width: 100%;
     height: auto;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family: sans-serif;
-    padding-bottom: 50px;
-    display: inline-block;
+
 }
-.imr{
-    width: 400px;
-    height: auto;
-    float: right;
-    
-}
-.iml{
-    width: 400px;
-    height: auto;
-    float: left;
-}
-.imin{
-    height: auto;
+.item{
+    height: 300px;
     width: 100%;
+    background-size: cover;
+    background-position: center;
 }
+.item1{
+    background-image: url(multimedia/DAN.jpg);
+}
+.item2{
+    background-image: url(multimedia/sermon2.jpg);
+}
+.item3{
+    background-image: url(multimedia/mckee-5.jpg);
+}
+.item4{
+    background-image: url(multimedia/daniel-platzman.webp);
+}
+/* integrantes */
+/* historia */
+.parra{
+    font-size: 25px;
+    padding: 10px;
+}
+/* historia */
 /* discografia */
 #medi{
     height: calc(300hv - 70px);
@@ -177,12 +185,37 @@ footer h3{
 
 
 @media only screen and (min-width: 480px) and (max-width: 599px){
-
+    .h1-int{
+        font-size: 40px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: large;   
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px){
     header{
         font-size: 23px;
+    }
+    .h1-int{
+        font-size: 40px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: large;
     }
     footer{
         font-size: 20px;
@@ -197,6 +230,19 @@ footer h3{
         width: 70%;
         font-size: 14px;
     }
+    .h1-int{
+        font-size: 40px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: 20px;
+    }
     footer{
         font-size: 20px;
     }
@@ -208,6 +254,19 @@ footer h3{
     .call{
         width: 70%;
         font-size: 15px;
+    }
+    .h1-int{
+        font-size: 50px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: 25px;
     }
     footer{
         font-size: 20px;
@@ -221,6 +280,20 @@ footer h3{
     .call{
         width: 70%;
         font-size: 15px;
+    }
+    .h1-int{
+        font-size: 60px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        height: 450px;
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: 30px;
     }
     footer{
         font-size: 20px;
