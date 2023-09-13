@@ -126,7 +126,7 @@ article h3{
 .contenedor-historia{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(22, 1fr);
 }
 .histem{
     background-position: center;
@@ -136,10 +136,9 @@ article h3{
     background-image: url(multimedia/imagine\ dragon\ antes.jpg);
 }
 .img2{
-   background-image: url(multimedia/Dan-Reynolds-2.jpg);
+    background-image: url(multimedia/Dan-Reynolds-2.jpg);
 }   
 .linkalbum {
-    background-image: url(multimedia/album1.jpg);
     background-position: center;
     background-size: cover;
     color: rgb(0, 0, 0);
@@ -150,8 +149,29 @@ article h3{
     font-family: Devil Breeze; 
     font-size: 30px;
 }
-.linkalbum :hover{
-    color: #868686;
+.al1{
+    background-image: url(multimedia/album1-mas-grande.jpg);
+}
+.al2{
+    background-image: url(multimedia/album2.png);
+    color: white;
+}
+.al3{
+    background-image: url(multimedia/album3.jpg);
+}
+.al4{
+    background-image: url(multimedia/album4.jpg);
+    color: white;
+}
+.al5{
+    background-image: url(multimedia/album5.jpg);
+}
+.al6{
+    background-image: url(multimedia/album6.jpg);
+}
+.linkalbum:hover{
+    filter: grayscale(100%);
+    transition-duration: 0.8s;
 }
 .img3{
 background-image: url(multimedia/-Daniel_Platzman.jpg);
@@ -162,6 +182,16 @@ background-image: url(multimedia/-Daniel_Platzman.jpg);
     border: 2px solid black;
     background-color: black ;
 }
+.img4{
+    background-image: url(multimedia/ImagineDragons2013.jpg)
+}  
+.img5{
+    background-image: url(multimedia/Imagine_Dragons2015.jpg);
+}
+.img6{
+    background-image: url(multimedia/Imagine_Dragons-2017.jpg);
+}
+
 /* historia */
 /* discografia */
 #medi{
