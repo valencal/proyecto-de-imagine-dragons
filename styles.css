@@ -206,10 +206,18 @@ background-image: url(multimedia/daniel-platzman.webp);
 /* historia */
 /* discografia */
 #medi{
+    width: 100%;
     height: calc(300hv - 70px);
     background-color: rgb(27, 27, 27);
     color: white;
     font-size: 20px;
+}
+.imi1{
+    height: 400px;
+    width: 100%;
+    background-image: url(multimedia/Imagine-Dragons-Logo-PNG.png);
+    background-position: center;
+    background-size: cover;
 }
 /* discografia */
 /* gira */
@@ -358,6 +366,12 @@ footer h3{
     #img2{
         background-image: url(multimedia/-Daniel_Platzman.jpg);
     }
+    .imi1{
+        height: 500px;
+    }
+    .colr{
+        float: right;
+    }
     table{
         font-size: 17px;
     }
@@ -401,6 +415,12 @@ footer h3{
     #img2{
         background-image: url(multimedia/daniel-platzman3.png);
     }
+    .imi1{
+        height: 750px;
+    }
+    .colr{
+        float: right;
+    }
     table{
     font-size: 20px;
     }
@@ -439,6 +459,12 @@ footer h3{
     }
     #img2{
         background-image: url(multimedia/daniel-platzman3.png);
+    }
+    .imi1{
+        height: 850px;
+    }
+    .colr{
+        float: right;
     }
     table{
         font-size: 21px;
@@ -490,6 +516,12 @@ footer h3{
     }
     .imgi{
         height:800px;
+    }
+    .imi1{
+        height: 1000px;
+    }
+    .colr{
+        float: right;
     }
     table{
         font-size: 22px;
