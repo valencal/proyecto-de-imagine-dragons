@@ -2,11 +2,15 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gira</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!-- bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="shortcut icon" href="../multimedia/Imagine-Dragons-Logo-PNG.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles.css">
+    
+    <title>Gira</title>
 </head>
 <body>
     <header>
@@ -21,84 +25,92 @@
         </nav>
     </header> 
     <main id="magi">
-      <h1 class="h1-int">Gira</h1>
-      <img src="../multimedia/width1960.webp" class="imin" alt="">
-    
-      <table id="tabla" border="5" cellpadding="10" cellspacing="10">      
-        <th>dia</th>
-        <th>hora</th>
-        <th>pais</th>
-        <th>ciudad</th> 
-     </tr>
-     <tr>
-     <td>miércoles 23/8</td>
-     <td>10:00-23:00</td>
-     <td>Reino Unido</td>
-     <td>Leeds</td>
- </tr>
- <tr>
-    <td>24/8-27/8</td>
-    <td>10:00-23:00</td>
-    <td>Reino Unido</td>
-    <td>Reading</td>
+    <h1 class="h1-int">Gira</h1>
+    <div class="imgi"></div>
+    <div class="container col-sm-10 mt-4 p-1">
+    <table class="table table-bordered-danger text-white">      
+        <th class="col-sm-2">dia</th>
+        <th class="col-sm-2">hora</th>
+        <th class="col-sm-2">pais</th>
+        <th class="col-sm-2">ciudad</th> 
+        <th class="col-sm-2">entradas</th>
+    </tr>
+    <tr>
+    <td class="col-sm-2">miércoles 23/8</td>
+    <td class="col-sm-2">10:00-23:00</td>
+    <td class="col-sm-2">Reino Unido</td>
+    <td class="col-sm-2">Leeds</td>
+    <td class="col-sm-2 boto"><a href="#">sacar</a></td>
 </tr>
 <tr>
-    <td>martes 29/8</td>
-    <td>18:00</td>
-    <td>Israel</td>
-    <td>Tel Aviv</td>
+    <td class="col-sm-2">24/8-27/8</td>
+    <td class="col-sm-2">10:00-23:00</td>
+    <td class="col-sm-2">Reino Unido</td>
+    <td class="col-sm-2">Reading</td>
+    <td class="col-sm-2 boto"><a href="#">sacar</a></td>
 </tr>
 <tr>
-    <td>jueves 31/8</td>
-    <td>17:00</td>
-    <td>Georgia</td>
-    <td>tbilisi</td>
+    <td class="col-sm-2">martes 29/8</td>
+    <td class="col-sm-2">18:00</td>
+    <td class="col-sm-2">Israel</td>
+    <td class="col-sm-2">Tel Aviv</td>
+    <td class="col-sm-2 bota"><a href="#">agotado</a></td>
 </tr>
 <tr>
-    <td>sábado 2/9</td>
-    <td>19:00</td>
-    <td>Azerbaiyán</td>
-    <td>Baku</td>
+    <td class="col-sm-2">jueves 31/8</td>
+    <td class="col-sm-2">17:00</td>
+    <td class="col-sm-2">Georgia</td>
+    <td class="col-sm-2">tbilisi</td>
+    <td class="col-sm-2 boto"><a href="#">sacar</a></td>
 </tr>
 <tr>
-    <td>miércoler 22/8</td>
-    <td>17:30</td>
-    <td>Grecia</td>
-    <td>Atenas</td>
+    <td class="col-sm-2">sábado 2/9</td>
+    <td class="col-sm-2">19:00</td>
+    <td class="col-sm-2">Azerbaiyán</td>
+    <td class="col-sm-2">Baku</td>
+    <td class="col-sm-2 bota"><a href="#">agotado</a></td>
 </tr>
 <tr>
-    <td>viernes 8/9</td>
-    <td>16:00</td>
-    <td>Grecia</td>
-    <td>Atenas</td>
+    <td class="col-sm-2">miércoler 22/8</td>
+    <td class="col-sm-2">17:30</td>
+    <td class="col-sm-2">Grecia</td>
+    <td class="col-sm-2">Atenas</td>
+    <td class="col-sm-2 boto"><a href="#">sacar</a></td>
+</tr>
+<tr>
+    <td class="col-sm-2">viernes 8/9</td>
+    <td class="col-sm-2">16:00</td>
+    <td class="col-sm-2">Grecia</td>
+    <td class="col-sm-2">Atenas</td>
+    <td class="col-sm-2 boto"><a href="#">sacar</a></td>
 </tr>
 </table>
-      </table>
+</div>    
     </main>
     <footer>
         <div class="redes">
         <a href="#">
             <i class="fa-brands fa-x-twitter" ></i>
-       </a>
+        </a>
         <a href="#">
-           <i class="fa-brands fa fa-instagram"></i>
-       </a>
+        <i class="fa-brands fa fa-instagram"></i>
+        </a>
         <a href="#">
-           <i class="fa-brands fa-facebook"></i>
-       </a>    
-       </div>
-       <nav class="foo">
-       <h3>este contenido esta protegido por copyright</h3> 
+        <i class="fa-brands fa-facebook"></i>
+        </a>    
+        </div>
+    <nav class="foo">
+        <h3>este contenido esta protegido por copyright</h3> 
         <h4>paginas</h4>
-       <ul>
+        <ul>
             <li id="hom"><a href="../index.html">Home</a></li>
             <li id="int"><a href="../pages/Integrantes.html">Integrantes</a></li>
             <li id="his"><a href="../pages/Historia.html">Historia</a></li>
             <li id="dis"><a href="../pages/Discografia.html">Discografia</a></li>
             <li id="gir"><a href="#">Gira</a></li>
-       </ul>
-       </nav>
-
-   </footer>
+        </ul>
+    </nav>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
