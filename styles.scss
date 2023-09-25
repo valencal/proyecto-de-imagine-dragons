@@ -1,0 +1,662 @@
+@font-face {
+    font-family: Devil Breeze;
+    src: url(font/Devil\ Breeze\ Bold.ttf);
+}
+$font1: Devil Breeze;
+$font2: sans-serif;
+//paleta de colores
+$color1: rgb(136, 14, 14);
+$color2: rgb(0, 0, 0);
+$color3: rgb(255, 255, 255);
+$color4: rgb(104, 101, 101);
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color:$color1;
+    font-family: $font1; 
+    font-size: 18px;
+    height: 60px; 
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.back{
+    padding: 32px 0;
+    background-color: $color1;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.prin{
+    font-size: 24px;
+    color: $color2;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.barra{  
+    text-align: center;
+}
+.barra ul li{
+    list-style: none;
+    position: relative;
+    float: left;
+}
+.barra a{
+    font-size: 18px;
+    padding: 20px;
+    color: $color2;
+    text-decoration: none;
+    display: block;
+} 
+.barra a:hover{
+    color: $color4;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+main{
+    height: auto;
+    background-color: $color2;
+    color: $color3;
+
+}
+#inx{
+    height:calc(100vh - 70px) ;
+    background-color: $color2;
+    background-image: url(multimedia/imagine.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.call{
+    color: $color3;
+    width: 100%;
+    background-color: rgba(66, 6, 6, 0.459);
+    border: 4px solid $color1;
+    padding: 20px;
+    float: right;
+    margin: 30px;
+    box-shadow: 2px 2px 5px rgba(131, 9, 9, 0.801);
+    border-radius: 10px;
+    font-family: $font2;
+    text-align: center;
+    font-size: 13px;
+}
+h1{
+    color: $color3;
+    margin-bottom: 10px;
+    font-family: $font1;
+}
+.call a {
+    background-color: $color2;
+    color: $color3;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.call p{
+    margin-bottom: 20px;
+}
+.call a:hover{
+    background-color: $color1;
+    color: $color2;
+}
+
+/* integrantes */
+.h1-int{
+    text-align: center;
+    font-size: 30px;
+    font-family:$font1;
+}
+.imi{
+    width: 100%;
+    height: auto;
+}
+article h3{
+    font-family: $font1;
+    padding:  10px;
+}
+.card{
+    width: 100%;
+    height: auto;
+    color: $color3;
+    font-size: 16px;
+    font-family: $font2;
+
+}
+.item{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.item1{
+    background-image: url(multimedia/DAN.jpg);
+}
+.item2{
+    background-image: url(multimedia/sermon2.jpg);
+}
+.item3{
+    background-image: url(multimedia/mckee-5.jpg);
+}
+.item4{
+    background-image: url(multimedia/daniel-platzman.webp);
+}
+/* integrantes */
+/* historia */
+.parra{
+    font-size: 20px;
+    padding: 10px;
+}
+.contenedor-historia{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+    grid-gap: 50px;
+}
+.histem{
+    background-position: center;
+    background-size: cover;
+}
+#img1{
+    background-image: url(multimedia/Dan-Reynolds-2.jpg);
+}   
+.linkalbum {
+    background-position: center;
+    background-size: cover;
+    color: $color4;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-family: $font1; 
+    font-size: 30px;
+}
+#al1{
+    background-image: url(multimedia/album1-mas-grande.jpg);
+}
+#al2{
+    background-image: url(multimedia/album2.png);
+}
+#al3{
+    background-image: url(multimedia/album3.jpg);
+}
+#al4{
+    background-image: url(multimedia/album4.jpg);
+}
+#al5{
+    background-image: url(multimedia/album5.jpg);
+}
+#al6{
+    background-image: url(multimedia/album6.jpg);
+}
+.linkalbum:hover{
+    filter: grayscale(100%);
+    transition-duration: 0.8s;
+}
+#img2{
+background-image: url(multimedia/daniel-platzman.webp);
+}
+.con{
+    color: $color3;
+    text-decoration: none;
+    border: 2px solid $color2;
+    background-color: $color2;
+}
+#img3{
+    background-image: url(multimedia/ImagineDragons2013.jpg)
+}  
+#img4{
+    background-image: url(multimedia/Imagine_Dragons2015.jpg);
+}
+#img5{
+    background-image: url(multimedia/Imagine_Dragons-2017.jpg);
+}
+.subir{
+    height: 20px;
+    width: 20px;
+    background-color: $color1;
+    color: $color2;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+}
+/* historia */
+/* discografia */
+#medi{
+    width: 100%;
+    height: calc(300hv - 70px);
+    background-color: $color2;
+    color: $color3;
+    font-size: 20px;
+}
+.imi1{
+    height: 400px;
+    width: 100%;
+    background-image: url(multimedia/Imagine-Dragons-Logo-PNG.png);
+    background-position: center;
+    background-size: cover;
+}
+/* discografia */
+/* gira */
+#magi{
+    height: auto;
+    background-color: $color2;
+    color: $color3;
+    font-size: 10px;
+}
+.imgi{
+    height: 500px;
+    width: 100%;
+    background-image: url(multimedia/dan-escenari.webp);
+    background-position: center;
+    background-size: cover;
+}
+table{
+    border: 3px solid $color1;
+    font-size: 11px;
+}
+th{
+    border: 3px solid $color1;
+}
+tr{
+    border: 3px solid $color1;
+}
+.boto a{
+    font-size: 15px;
+    text-decoration: none;
+    color: $color3;
+    background-color: $color1;
+    border: 2px solid $color1;
+    border-radius: 6px;
+}
+.boto a:hover{
+    background-color: $color2;
+    border: 2px solid $color4;
+}
+.bota a{
+    font-size: 15px;
+    text-decoration: none;
+    color: $color3;
+    background-color: $color1;
+    border: 2px solid $color1;
+    border-radius: 6px;
+}
+.bota a:hover{
+    background-color: $color1;
+    border: 2px solid $color1;
+}
+/* gira */
+footer{
+    background-color: $color1;
+    font-size: 15px;
+    height: auto;
+    width: 100%;
+    padding-bottom: 1px;
+}
+footer h3{
+    font-size: 17px;
+    text-align: center;
+    padding-left: 100px;
+}
+.foo{
+    text-align: left;
+    padding-top: 40px;
+}
+.foo a{
+    color: $color2;
+    text-decoration: none;
+}
+.foo a:hover{
+    color: $color4;
+}
+.redes{
+    font-size: 30px;
+    color: $color2;
+} 
+.redes i{
+    letter-spacing: 5px;
+    float: right;
+    padding-top: 150px;
+}
+.redes a{
+    text-decoration: none;
+    color: $color2;
+}
+.redes a:hover{
+    color: #868686;
+}
+
+@media only screen and (max-width: 480px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        font-size: 30px;
+        display: initial;
+    }
+    .back{
+        padding: 40px 0;
+    }
+    .menu .barra{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: $color1;
+        display: none;
+    }
+    .barra ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .barra{
+        display: initial;
+    } 
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        font-size: 35px;
+        display: initial;
+    }
+    .back{
+        padding: 40px 0;
+    }
+    .menu .barra{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: $color1;
+        display: none;
+    }
+    .barra ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .barra{
+        display: initial;
+    } 
+    .h1-int{
+        font-size: 40px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: large;   
+    }
+    .parra{
+        font-size: 21px;
+    }
+    .contenedor-historia{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(21, 400px);
+    }
+    table{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        font-size: 35px;
+        display: initial;
+    }
+    .back{
+        padding: 40px 0;
+    }
+    .menu .barra{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: $color1;
+        display: none;
+    }
+    .barra ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .barra{
+        display: initial;
+    } 
+    .h1-int{
+        font-size: 40px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: large;
+    }
+    .contenedor-historia{
+        display: grid;
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-columns: 1fr 1fr;
+    }
+    #img1{
+        background-position: 800px;
+    }
+    #img2{
+        background-image: url(multimedia/-Daniel_Platzman.jpg);
+    }
+    .imi1{
+        height: 500px;
+    }
+    .colr{
+        float: right;
+    }
+    table{
+        font-size: 17px;
+    }
+    footer{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    header{
+        font-size: 28px;
+    }
+    .call{
+        width: 70%;
+        font-size: 14px;
+    }
+    .h1-int{
+        font-size: 40px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: 20px;
+    }
+    .contenedor-historia{
+        display: grid;
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-columns: 1fr 1fr;
+    }
+    .parra{
+        font-size: 25px;
+    }
+    #img1{
+        background-position: 900px;
+    }
+    #img2{
+        background-image: url(multimedia/daniel-platzman3.png);
+    }
+    .imi1{
+        height: 750px;
+    }
+    .colr{
+        float: right;
+    }
+    table{
+    font-size: 20px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    header{
+        font-size: 39px;
+    }
+    .call{
+        width: 70%;
+        font-size: 15px;
+    }
+    .h1-int{
+        font-size: 50px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: 25px;
+    }
+    .contenedor-historia{
+        display: grid;
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-columns: 1fr 1fr;
+    }
+    .parra{
+        font-size: 25px;
+    }
+    #img2{
+        background-image: url(multimedia/daniel-platzman3.png);
+    }
+    .imi1{
+        height: 850px;
+    }
+    .colr{
+        float: right;
+    }
+    table{
+        font-size: 21px;
+    }
+    .boto a{
+        font-size: 21px;
+    }
+    .bota a{
+        font-size: 21px;
+    }
+    footer{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (min-width: 1200px){
+    header{
+        font-size: 39px;
+    }
+    .call{
+        width: 70%;
+        font-size: 15px;
+    }
+    .h1-int{
+        font-size: 60px;
+    }
+    .secint{
+        display: flex;
+    }
+    .item{
+        height: 450px;
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+        font-size: 30px;
+    }
+    .contenedor-historia{
+        display: grid;
+        grid-template-rows: repeat(11, 2fr);
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+    }
+    .parra{
+        font-size: 25px;
+    }
+    #img2{
+        background-image: url(multimedia/daniel-platzman3.png);
+    }
+    .imgi{
+        height:800px;
+    }
+    .imi1{
+        height: 1000px;
+    }
+    .colr{
+        float: right;
+    }
+    table{
+        font-size: 22px;
+    }
+    .boto a{
+        font-size: 22px;
+    }
+    .bota a{
+        font-size: 22px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .parra{
+        font-size: 30px;
+    }
+}
