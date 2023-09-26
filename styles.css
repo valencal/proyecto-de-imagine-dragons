@@ -102,8 +102,7 @@ main {
   justify-content: center;
   align-items: end;
 }
-
-.call {
+#inx .call {
   color: rgb(255, 255, 255);
   width: 100%;
   background-color: rgba(66, 6, 6, 0.459);
@@ -117,26 +116,22 @@ main {
   text-align: center;
   font-size: 13px;
 }
-
-h1 {
+#inx .call h1 {
   color: rgb(255, 255, 255);
   margin-bottom: 10px;
   font-family: Devil Breeze;
 }
-
-.call a {
+#inx .call a {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px 20px;
   margin-bottom: 20px;
 }
-
-.call p {
+#inx .call p {
   margin-bottom: 20px;
 }
-
-.call a:hover {
+#inx .call a:hover {
   background-color: rgb(136, 14, 14);
   color: rgb(0, 0, 0);
 }
@@ -361,11 +356,6 @@ tr {
   border-radius: 6px;
 }
 
-.bota a:hover {
-  background-color: rgb(136, 14, 14);
-  border: 2px solid rgb(136, 14, 14);
-}
-
 /* gira */
 footer {
   background-color: rgb(136, 14, 14);
@@ -374,45 +364,37 @@ footer {
   width: 100%;
   padding-bottom: 1px;
 }
-
-footer h3 {
-  font-size: 17px;
-  text-align: center;
-  padding-left: 100px;
-}
-
-.foo {
-  text-align: left;
-  padding-top: 40px;
-}
-
-.foo a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-
-.foo a:hover {
-  color: rgb(104, 101, 101);
-}
-
-.redes {
+footer .redes {
   font-size: 30px;
   color: rgb(0, 0, 0);
 }
-
-.redes i {
+footer .redes a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+footer .redes a a:hover {
+  color: rgb(104, 101, 101);
+}
+footer .redes a i {
   letter-spacing: 5px;
   float: right;
   padding-top: 150px;
 }
-
-.redes a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+footer .foo {
+  text-align: left;
+  padding-top: 40px;
 }
-
-.redes a:hover {
-  color: #868686;
+footer .foo h3 {
+  font-size: 17px;
+  text-align: center;
+  padding-left: 100px;
+}
+footer .foo a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+footer .foo a a:hover {
+  color: rgb(104, 101, 101);
 }
 
 @media only screen and (max-width: 480px) {
@@ -712,6 +694,4 @@ footer h3 {
   .parra {
     font-size: 30px;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
