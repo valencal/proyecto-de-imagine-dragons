@@ -81,7 +81,7 @@ header{
 }
 main{
     height: auto;
-    background-color: $color2;
+    background-image:linear-gradient( to left, $color2, $color2, $color1, $color2, $color2);
     color: $color3;
 
 }
@@ -243,7 +243,7 @@ background-image: url(multimedia/daniel-platzman.webp);
     background-color: $color1;
     color: $color2;
     position: fixed;
-    right: 20px;
+    right: 150px;
     bottom: 20px;
     text-align: center;
     line-height: 20px;
@@ -652,5 +652,15 @@ footer{
 @media only screen and (min-width: 1300px){
     .parra{
         font-size: 30px;
+    }
+}
+
+//animaciones
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
     }
 }

@@ -88,7 +88,7 @@ header {
 
 main {
   height: auto;
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0), rgb(136, 14, 14), rgb(0, 0, 0), rgb(0, 0, 0));
   color: rgb(255, 255, 255);
 }
 
@@ -276,7 +276,7 @@ article h3 {
   background-color: rgb(136, 14, 14);
   color: rgb(0, 0, 0);
   position: fixed;
-  right: 20px;
+  right: 150px;
   bottom: 20px;
   text-align: center;
   line-height: 20px;
@@ -694,4 +694,14 @@ footer .foo a a:hover {
   .parra {
     font-size: 30px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
