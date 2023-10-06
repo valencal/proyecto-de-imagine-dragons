@@ -21,7 +21,7 @@ header{
     background-color:$color1;
     font-family: $font1; 
     font-size: 18px;
-    height: 60px; 
+    height: auto; 
     width: 100%;
     padding: 10px;
     text-decoration: none;
@@ -81,6 +81,7 @@ header{
 }
 main{
     height: auto;
+    width: auto;
     background-image:linear-gradient( to left, $color2, $color2, $color1, $color2, $color2);
     color: $color3;
 
@@ -88,7 +89,7 @@ main{
 #inx{
     height:calc(100vh - 70px) ;
     background-color: $color2;
-    background-image: url(multimedia/imagine.jpg);
+    background-image: url(multimedia/imgaine\ dragons\ logo\ chico.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -156,37 +157,23 @@ article h3{
     background-size: cover;
     background-position: center;
 }
-.item1{
-    background-image: url(multimedia/DAN.jpg);
-}
-.item2{
-    background-image: url(multimedia/sermon2.jpg);
-}
-.item3{
-    background-image: url(multimedia/mckee-5.jpg);
-}
-.item4{
-    background-image: url(multimedia/daniel-platzman.webp);
-}
 /* integrantes */
 /* historia */
 .parra{
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
 }
 .contenedor-historia{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(21, 1fr);
     grid-gap: 50px;
+    .histem{
+        background-position: center;
+        background-size: cover;
+    }
 }
-.histem{
-    background-position: center;
-    background-size: cover;
-}
-#img1{
-    background-image: url(multimedia/Dan-Reynolds-2.jpg);
-}   
+
 .linkalbum {
     background-position: center;
     background-size: cover;
@@ -219,20 +206,15 @@ article h3{
     filter: grayscale(100%);
     transition-duration: 0.8s;
 }
-#img2{
-background-image: url(multimedia/daniel-platzman.webp);
+.img{
+    height: 100%;
+    width: 100%;
 }
 .con{
     color: $color3;
     text-decoration: none;
     border: 2px solid $color2;
     background-color: $color2;
-}
-#img3{
-    background-image: url(multimedia/ImagineDragons2013.jpg)
-}  
-#img4{
-    background-image: url(multimedia/Imagine_Dragons2015.jpg);
 }
 #img5{
     background-image: url(multimedia/Imagine_Dragons-2017.jpg);
@@ -243,7 +225,7 @@ background-image: url(multimedia/daniel-platzman.webp);
     background-color: $color1;
     color: $color2;
     position: fixed;
-    right: 150px;
+    right: 20px;
     bottom: 20px;
     text-align: center;
     line-height: 20px;
@@ -343,14 +325,19 @@ footer{
             text-align: center;
             padding-left: 100px;
             }
-            a{
-            color: $color2;
-            text-decoration: none; 
-            a:hover{
-                color:  $color4;
+            ul{
+                li{ 
+                    list-style: none;
+                    a{
+                    color: $color2;
+                    text-decoration: none; 
+                        a:hover{
+                        color:  $color4;
+                        }
+                    }
+                }
             }
-            }
-    }
+        }
 }
 @media only screen and (max-width: 480px){
     .menu{
@@ -413,7 +400,7 @@ footer{
     .item{
         width: 50%;
     }
-    .card{
+    .car{
         width: 50%;
         font-size: large;   
     }
@@ -464,7 +451,7 @@ footer{
     .item{
         width: 50%;
     }
-    .card{
+    .car{
         width: 50%;
         font-size: large;
     }
@@ -510,7 +497,7 @@ footer{
     .item{
         width: 50%;
     }
-    .card{
+    .car{
         width: 50%;
         font-size: 20px;
     }
@@ -558,7 +545,7 @@ footer{
     .item{
         width: 50%;
     }
-    .card{
+    .car{
         width: 50%;
         font-size: 25px;
     }
@@ -597,6 +584,9 @@ footer{
     header{
         font-size: 39px;
     }
+    #inx{
+        background-image: url(multimedia/imagine.jpg);
+    }
     .call{
         width: 70%;
         font-size: 15px;
@@ -611,7 +601,7 @@ footer{
         height: 450px;
         width: 50%;
     }
-    .card{
+    .car{
         width: 50%;
         font-size: 30px;
     }
@@ -623,9 +613,6 @@ footer{
     }
     .parra{
         font-size: 25px;
-    }
-    #img2{
-        background-image: url(multimedia/daniel-platzman3.png);
     }
     .imgi{
         height:800px;

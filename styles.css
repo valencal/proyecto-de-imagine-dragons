@@ -16,7 +16,7 @@ header {
   background-color: rgb(136, 14, 14);
   font-family: Devil Breeze;
   font-size: 18px;
-  height: 60px;
+  height: auto;
   width: 100%;
   padding: 10px;
   text-decoration: none;
@@ -88,6 +88,7 @@ header {
 
 main {
   height: auto;
+  width: auto;
   background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0), rgb(136, 14, 14), rgb(0, 0, 0), rgb(0, 0, 0));
   color: rgb(255, 255, 255);
 }
@@ -95,7 +96,7 @@ main {
 #inx {
   height: calc(100vh - 70px);
   background-color: rgb(0, 0, 0);
-  background-image: url(multimedia/imagine.jpg);
+  background-image: url(multimedia/imgaine\ dragons\ logo\ chico.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -168,27 +169,11 @@ article h3 {
   background-position: center;
 }
 
-.item1 {
-  background-image: url(multimedia/DAN.jpg);
-}
-
-.item2 {
-  background-image: url(multimedia/sermon2.jpg);
-}
-
-.item3 {
-  background-image: url(multimedia/mckee-5.jpg);
-}
-
-.item4 {
-  background-image: url(multimedia/daniel-platzman.webp);
-}
-
 /* integrantes */
 /* historia */
 .parra {
   font-size: 20px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .contenedor-historia {
@@ -197,14 +182,9 @@ article h3 {
   grid-template-rows: repeat(21, 1fr);
   grid-gap: 50px;
 }
-
-.histem {
+.contenedor-historia .histem {
   background-position: center;
   background-size: cover;
-}
-
-#img1 {
-  background-image: url(multimedia/Dan-Reynolds-2.jpg);
 }
 
 .linkalbum {
@@ -247,8 +227,9 @@ article h3 {
   transition-duration: 0.8s;
 }
 
-#img2 {
-  background-image: url(multimedia/daniel-platzman.webp);
+.img {
+  height: 100%;
+  width: 100%;
 }
 
 .con {
@@ -256,14 +237,6 @@ article h3 {
   text-decoration: none;
   border: 2px solid rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
-}
-
-#img3 {
-  background-image: url(multimedia/ImagineDragons2013.jpg);
-}
-
-#img4 {
-  background-image: url(multimedia/Imagine_Dragons2015.jpg);
 }
 
 #img5 {
@@ -276,7 +249,7 @@ article h3 {
   background-color: rgb(136, 14, 14);
   color: rgb(0, 0, 0);
   position: fixed;
-  right: 150px;
+  right: 20px;
   bottom: 20px;
   text-align: center;
   line-height: 20px;
@@ -389,11 +362,14 @@ footer .foo h3 {
   text-align: center;
   padding-left: 100px;
 }
-footer .foo a {
+footer .foo ul li {
+  list-style: none;
+}
+footer .foo ul li a {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
-footer .foo a a:hover {
+footer .foo ul li a a:hover {
   color: rgb(104, 101, 101);
 }
 
@@ -457,7 +433,7 @@ footer .foo a a:hover {
   .item {
     width: 50%;
   }
-  .card {
+  .car {
     width: 50%;
     font-size: large;
   }
@@ -507,7 +483,7 @@ footer .foo a a:hover {
   .item {
     width: 50%;
   }
-  .card {
+  .car {
     width: 50%;
     font-size: large;
   }
@@ -552,7 +528,7 @@ footer .foo a a:hover {
   .item {
     width: 50%;
   }
-  .card {
+  .car {
     width: 50%;
     font-size: 20px;
   }
@@ -600,7 +576,7 @@ footer .foo a a:hover {
   .item {
     width: 50%;
   }
-  .card {
+  .car {
     width: 50%;
     font-size: 25px;
   }
@@ -638,6 +614,9 @@ footer .foo a a:hover {
   header {
     font-size: 39px;
   }
+  #inx {
+    background-image: url(multimedia/imagine.jpg);
+  }
   .call {
     width: 70%;
     font-size: 15px;
@@ -652,7 +631,7 @@ footer .foo a a:hover {
     height: 450px;
     width: 50%;
   }
-  .card {
+  .car {
     width: 50%;
     font-size: 30px;
   }
@@ -664,9 +643,6 @@ footer .foo a a:hover {
   }
   .parra {
     font-size: 25px;
-  }
-  #img2 {
-    background-image: url(multimedia/daniel-platzman3.png);
   }
   .imgi {
     height: 800px;
@@ -702,6 +678,4 @@ footer .foo a a:hover {
   to {
     opacity: 1;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
